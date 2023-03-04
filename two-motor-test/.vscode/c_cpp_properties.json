@@ -1,0 +1,55 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Arduino",
+            "compilerPath": "@/Users/mgjeffries/Library/Arduino15/packages/esp8266/hardware/esp8266/3.1.0/tools/warnings/none-g++",
+            "compilerArgs": [
+                "-U__STRICT_ANSI__",
+                "-free",
+                "-fipa-pta",
+                "-Werror=return-type",
+                "-mlongcalls",
+                "-mtext-section-literals",
+                "-fno-rtti",
+                "-falign-functions=4",
+                "-std=gnu++17"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "/Users/mgjeffries/Library/Arduino15/packages/esp8266/hardware/esp8266/3.1.0/tools/sdk/include",
+                "/Users/mgjeffries/Library/Arduino15/packages/esp8266/hardware/esp8266/3.1.0/tools/sdk/lwip2/include",
+                "/private/var/folders/yv/w78r5lgs0zj1_pydxvjfzfb80000gn/T/arduino/sketch-8B5F651B50732BB39A0D978CE8055540/core",
+                "/Users/mgjeffries/Library/Arduino15/packages/esp8266/hardware/esp8266/3.1.0/cores/esp8266",
+                "/Users/mgjeffries/Library/Arduino15/packages/esp8266/hardware/esp8266/3.1.0/variants/thing",
+                "/Users/mgjeffries/Documents/Arduino/libraries/AccelStepper/src"
+            ],
+            "forcedInclude": [
+                "/Users/mgjeffries/Library/Arduino15/packages/esp8266/hardware/esp8266/3.1.0/cores/esp8266/Arduino.h"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "__ets__",
+                "ICACHE_FLASH",
+                "_GNU_SOURCE",
+                "ESP8266",
+                "MMU_IRAM_SIZE=0x8000",
+                "MMU_ICACHE_SIZE=0x8000",
+                "NONOSDK22x_190703=1",
+                "F_CPU=80000000L",
+                "LWIP_OPEN_SRC",
+                "TCP_MSS=536",
+                "LWIP_FEATURES=1",
+                "LWIP_IPV6=0",
+                "ARDUINO=10607",
+                "ARDUINO_ESP8266_THING_DEV",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_BOARD=\"ESP8266_THING_DEV\"",
+                "ARDUINO_BOARD_ID=\"thingdev\"",
+                "FLASHMODE_DIO",
+                "USBCON"
+            ]
+        }
+    ]
+}
